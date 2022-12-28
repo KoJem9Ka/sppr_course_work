@@ -1,0 +1,102 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-24T12:39:39Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 107924697,
+      "nodes": [
+        1239420403,
+        1645805718,
+        1645805706,
+        1645805730,
+        1239420431,
+        8349682444,
+        1239420348,
+        2888454102,
+        1239420305,
+        8349682445,
+        1239420403
+      ],
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "400066",
+        "addr:street": "\u043d\u0430\u0431\u0435\u0440\u0435\u0436\u043d\u0430\u044f 62-\u0439 \u0410\u0440\u043c\u0438\u0438",
+        "building": "yes",
+        "building:levels": "2",
+        "fire_operator": "RU-VGG-1-3",
+        "fire_rank": "2",
+        "landuse": "harbour",
+        "name": "\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0438\u0439 \u0440\u0435\u0447\u043d\u043e\u0439 \u043f\u043e\u0440\u0442",
+        "name:de": "Flusshafen Wolgograd",
+        "name:en": "Volgograd river port",
+        "roof:colour": "grey",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1239420348,
+      "lat": 48.7004498,
+      "lon": 44.5182956
+    },
+    {
+      "type": "node",
+      "id": 1239420305,
+      "lat": 48.7002071,
+      "lon": 44.5186584
+    },
+    {
+      "type": "node",
+      "id": 1239420403,
+      "lat": 48.701464,
+      "lon": 44.5206773
+    },
+    {
+      "type": "node",
+      "id": 1239420431,
+      "lat": 48.7017303,
+      "lon": 44.5202924
+    },
+    {
+      "type": "node",
+      "id": 1645805706,
+      "lat": 48.7015421,
+      "lon": 44.5205644
+    },
+    {
+      "type": "node",
+      "id": 1645805718,
+      "lat": 48.7014858,
+      "lon": 44.5206459
+    },
+    {
+      "type": "node",
+      "id": 1645805730,
+      "lat": 48.7016808,
+      "lon": 44.5203639
+    },
+    {
+      "type": "node",
+      "id": 2888454102,
+      "lat": 48.7002348,
+      "lon": 44.5186169
+    },
+    {
+      "type": "node",
+      "id": 8349682444,
+      "lat": 48.7011931,
+      "lon": 44.5194546
+    },
+    {
+      "type": "node",
+      "id": 8349682445,
+      "lat": 48.7009337,
+      "lon": 44.5198255
+    }
+  ]
+}

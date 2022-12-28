@@ -1,0 +1,5 @@
+OSRM_russia/*
+node_modules
+.idea
+redis_data
+result

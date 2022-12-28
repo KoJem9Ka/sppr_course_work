@@ -1,0 +1,313 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-27T17:35:39Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 634894140,
+      "lat": 55.8253798,
+      "lon": 48.5241189,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 634894144,
+      "lat": 55.8133227,
+      "lon": 48.5233316,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 662351667,
+      "lat": 55.8333836,
+      "lon": 48.6478623,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "name": "Васильевская пристань"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620302,
+      "lat": 55.7749558,
+      "lon": 49.0915896,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620390,
+      "lat": 55.7751806,
+      "lon": 49.0937396,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "mooring": "yes",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620501,
+      "lat": 55.7715653,
+      "lon": 49.0903296,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620616,
+      "lat": 55.7746969,
+      "lon": 49.0902920,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620709,
+      "lat": 55.7735623,
+      "lon": 49.0903101,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "ferry": "yes",
+        "mooring": "yes",
+        "name": "Казань",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620746,
+      "lat": 55.7708415,
+      "lon": 49.0899177,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620797,
+      "lat": 55.7729714,
+      "lon": 49.0903195,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620820,
+      "lat": 55.7749620,
+      "lon": 49.0922315,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951620999,
+      "lat": 55.7743525,
+      "lon": 49.0902975,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951621105,
+      "lat": 55.7749552,
+      "lon": 49.0911414,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951621206,
+      "lat": 55.7749697,
+      "lon": 49.0929388,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 951621285,
+      "lat": 55.7721474,
+      "lon": 49.0903289,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "cargo": "passengers",
+        "mooring": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1097706254,
+      "lat": 55.7871851,
+      "lon": 48.7368395,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Дачное",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2385062268,
+      "lat": 55.7728505,
+      "lon": 48.9911944,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Верхний Услон",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2385062294,
+      "lat": 55.7814076,
+      "lon": 48.8458344,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Набережные Моркваши",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2385062313,
+      "lat": 55.7833328,
+      "lon": 48.9572284,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Печищи",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3016508040,
+      "lat": 55.7823086,
+      "lon": 48.7000321,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Рудник",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3859215386,
+      "lat": 55.7738482,
+      "lon": 48.6689867,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4686337713,
+      "lat": 55.5134783,
+      "lon": 49.0314460,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "description": "пристань для пригородных теплоходов",
+        "ferry": "yes",
+        "name": "Кзыл-Байрак",
+        "operator": "ОАО СК Татфлот",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4686338297,
+      "lat": 55.5299259,
+      "lon": 49.0152604,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "description": "пристань для пригородных теплоходов",
+        "ferry": "yes",
+        "name": "Шеланга",
+        "operator": "ОАО СК Татфлот",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4686348697,
+      "lat": 55.6070279,
+      "lon": 48.9598719,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "description": "пристань для пригородных теплоходов",
+        "ferry": "yes",
+        "name": "Ташевка",
+        "operator": "ОАО СК Татфлот",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9196807312,
+      "lat": 55.7731718,
+      "lon": 48.9902645,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "name": "Верхний Услон"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9196811023,
+      "lat": 55.7990088,
+      "lon": 48.9776069,
+      "tags": {
+        "amenity": "ferry_terminal",
+        "ferry": "yes",
+        "name": "Аракчино",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-24T11:12:24Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "lat": 48.791896,
+      "lon": 44.355083,
+      "tags": {
+        "name:en": "Gumrak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5075181901,
+      "lat": 48.6813592,
+      "lon": 44.0758110,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZA9A",
+        "name:en": "Noviy Rogachik"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5124550534,
+      "lat": 48.6780801,
+      "lon": 44.3592269,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZD2A",
+        "name": "Воропоново",
+        "name:en": "Voroponovo",
+        "name:ru": "Воропоново",
+        "source": "maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5130175441,
+      "lat": 48.7157824,
+      "lon": 44.9035425,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZDR6",
+        "name": "Орленок",
+        "name:en": "Orlenok",
+        "source": "maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5138972662,
+      "lat": 48.4632624,
+      "lon": 44.5535727,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZE9Z",
+        "name": "Бабкино",
+        "name:en": "Babkino",
+        "source": "maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7255124474,
+      "lat": 48.5631769,
+      "lon": 44.3628733,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:email": "agrolet@yandex.ru",
+        "local_ref": "ZFC2",
+        "name": "Бекетовка-2",
+        "name:en": "Beketovka-2",
+        "name:ru": "Бекетовка-2",
+        "note": "Apparently civilian activity on the outskirts of the military airfiled.",
+        "source": "maps.aopa.ru"
+      }
+    }
+  ]
+}

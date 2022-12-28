@@ -1,0 +1,54 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-27T17:39:38Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 3914875881,
+  "lat": 55.7940974,
+  "lon": 49.2077396,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "check_date": "2022-06-25",
+    "name": "Восточный автовокзал",
+    "name:en": "\"Vostochny\" bus station",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4151767315,
+  "lat": 55.8425418,
+  "lon": 49.0816577,
+  "tags": {
+    "alt_name": "Северный автовокзал",
+    "amenity": "bus_station",
+    "bus": "yes",
+    "check_date": "2022-06-25",
+    "name": "Казань-2",
+    "name:en": "Kazan-2",
+    "name:ru": "Казань-2",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4985013721,
+  "lat": 55.8110880,
+  "lon": 49.2669911,
+  "tags": {
+    "addr:street": "Internatsionalnaya street",
+    "amenity": "bus_station",
+    "name": "Жилой Массив Константиновка",
+    "name:en": "Konstantinovka settlement"
+  }
+}
+
+  ]
+}

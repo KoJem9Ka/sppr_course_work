@@ -1,0 +1,407 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.59 e21c39fe",
+    "osm3s": {
+      "timestamp_osm_base": "2022-12-27T16:47:59Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 223749,
+    "lat": 59.9847748,
+    "lon": 29.7705603,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 28999537,
+    "lat": 60.0055893,
+    "lon": 29.7128532,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "name": "Грузовой порт Мобидик"
+    }
+  },
+  {
+    "type": "node",
+    "id": 29001764,
+    "lat": 59.9194050,
+    "lon": 30.2615143,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "railway": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 336033620,
+    "lat": 60.0847026,
+    "lon": 30.0264731,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 725894462,
+    "lat": 59.9850564,
+    "lon": 29.7707995,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "name": "Зимняя пристань",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 773524396,
+    "lat": 59.8917304,
+    "lon": 29.9141726,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "name": "Петергоф",
+      "public_transport": "station",
+      "ref": "6"
+    }
+  },
+  {
+    "type": "node",
+    "id": 773524474,
+    "lat": 59.9420965,
+    "lon": 30.3140261,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "name": "Дворцовая пристань",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1084576304,
+    "lat": 59.9570951,
+    "lon": 31.0320808,
+    "tags": {
+      "addr:postcode": "188679",
+      "addr:street": "улица Скворцова",
+      "amenity": "ferry_terminal",
+      "email": "info@petrokrepost.ru",
+      "ferry": "yes",
+      "name": "Переправа в Крепость Орешек",
+      "name:en": "Ferry to the Oreshek fortress (island)",
+      "opening_hours": "Mo-Fr 09:30-18:00; Sa-Su 09:30-19:00",
+      "operator": "Бухта Петрокрепость",
+      "phone": "+7 921 9037157",
+      "public_transport": "station",
+      "website": "https://petrokrepost.ru/"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1084576312,
+    "lat": 59.9534840,
+    "lon": 31.0345912,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1179335948,
+    "lat": 59.8700200,
+    "lon": 30.4602543,
+    "tags": {
+      "addr:housenumber": "106 литВ",
+      "addr:street": "проспект Обуховской Обороны",
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1309605858,
+    "lat": 59.9414552,
+    "lon": 30.3122776,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1364036565,
+    "lat": 59.9411767,
+    "lon": 30.3048216,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station",
+      "wheelchair": "no"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1623836098,
+    "lat": 59.7111089,
+    "lon": 30.3949003,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1627147906,
+    "lat": 59.9460274,
+    "lon": 31.0299820,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "noname": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1839470349,
+    "lat": 60.2634369,
+    "lon": 29.8178933,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1839470366,
+    "lat": 60.2647755,
+    "lon": 29.8168084,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1950575934,
+    "lat": 59.7110285,
+    "lon": 30.3962033,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 1950575944,
+    "lat": 59.7112089,
+    "lon": 30.3991039,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 2062176068,
+    "lat": 59.9249520,
+    "lon": 30.2367058,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3520324336,
+    "lat": 59.9527037,
+    "lon": 31.0380869,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3688401263,
+    "lat": 60.0932832,
+    "lon": 29.9658278,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "description": "Полный 200 р, детский (от 1 до 14 лет) 100 р, велосипед 100 р.",
+      "name": "«Шалаш» — Сестрорецк",
+      "opening_hours": "Mo-Fr 12:00-20:00; Sa, Su 11:00-20:00",
+      "phone": "+7 921 5709336;+7 950 0391650"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4462355233,
+    "lat": 59.9444198,
+    "lon": 30.3220700,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4462355261,
+    "lat": 59.9431467,
+    "lon": 30.3179825,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4925167151,
+    "lat": 59.9746864,
+    "lon": 30.3309801,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4987104365,
+    "lat": 59.7117471,
+    "lon": 30.3934983,
+    "tags": {
+      "amenity": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5325399566,
+    "lat": 59.9327371,
+    "lon": 30.3150703,
+    "tags": {
+      "addr:city": "Санкт-Петербург",
+      "addr:housenumber": "56",
+      "addr:street": "набережная реки Мойки",
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "operator": "Нева-кронверк",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5816165103,
+    "lat": 59.9397988,
+    "lon": 30.3082343,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "name": "Пристань со Львами",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6611626363,
+    "lat": 59.9505765,
+    "lon": 30.1944022,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "vehicle",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6611626364,
+    "lat": 59.9508903,
+    "lon": 30.1934307,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "vehicle",
+      "ferry": "yes",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 6934252046,
+    "lat": 59.9089947,
+    "lon": 29.8111232,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "ferry": "yes",
+      "internet_access": "no",
+      "name": "пирс МЧС",
+      "operator": "МЧС",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9049946556,
+    "lat": 59.9945621,
+    "lon": 29.7069883,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "contact:website": "https://kronfort.com/morskie-progulki/",
+      "name": "Паром Рипербан",
+      "opening_hours": "Mo-Su 12:00-19:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9208999179,
+    "lat": 59.9153107,
+    "lon": 30.2610434,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "railway": "ferry_terminal"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9494870890,
+    "lat": 59.9474030,
+    "lon": 30.3337917,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "name": "Летний сад",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 9967798001,
+    "lat": 59.9896269,
+    "lon": 29.7362016,
+    "tags": {
+      "amenity": "ferry_terminal",
+      "cargo": "passengers",
+      "ferry": "yes",
+      "name": "Остров Фортов",
+      "public_transport": "station"
+    }
+  }
+  
+    ]
+  }
+  

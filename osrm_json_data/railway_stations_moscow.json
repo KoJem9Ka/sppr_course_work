@@ -1,0 +1,313 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-27T15:58:09Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1042057793,
+      "lat": 55.4590000,
+      "lon": 39.0370000,
+      "tags": {
+        "aeroway": "aerodrome",
+        "description": "ЬУМГ",
+        "int_ref": "XUMG",
+        "name": "Аэродром Шувое",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1042058145,
+      "lat": 55.8370557,
+      "lon": 38.1706108,
+      "tags": {
+        "abandoned": "yes",
+        "aeroway": "aerodrome",
+        "int_ref": "ZA8F",
+        "name": "Аэродром Монино",
+        "name:en": "Monino Airfield",
+        "name:ru": "Аэродром Монино",
+        "ref": "ЗА8Ф",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1042058337,
+      "lat": 55.3806465,
+      "lon": 38.3715963,
+      "tags": {
+        "abandoned": "yes",
+        "aeroway": "aerodrome",
+        "description": "ЗА8Г",
+        "int_ref": "ZA8G",
+        "name": "Аэродром Морозово",
+        "name:en": "Morozovo Airstrip",
+        "name:ru": "Аэродром Морозово",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1466816007,
+      "lat": 55.4994749,
+      "lon": 36.2129537,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:website": "http://aerogradm.ru",
+        "email": "sk@aerogradm.ru",
+        "icao": "UUWH",
+        "icao:ru": "УУВХ",
+        "name": "аэроград Можайский",
+        "name:en": "Aerograd Mozhaiskiy",
+        "phone": "+7 916 5063500;+7 915 2640777",
+        "website": "http://aerogradm.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2507151687,
+      "lat": 55.4217015,
+      "lon": 38.2292316,
+      "tags": {
+        "abandoned": "yes",
+        "aeroway": "aerodrome",
+        "description": "ЗА1З",
+        "int_ref": "ZA1Z",
+        "name": "Аэродром Бронницы",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2507163909,
+      "lat": 55.2703820,
+      "lon": 38.4273824,
+      "tags": {
+        "access": "private",
+        "aeroway": "aerodrome",
+        "description": "ЗБ3Д",
+        "int_ref": "ZB3D",
+        "local_ref": "ZB3D",
+        "name": "Аэродром Лысцево",
+        "name:en": "Lystsevo",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2521861722,
+      "lat": 56.2354397,
+      "lon": 37.5544303,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:email": "club@paralet.ru",
+        "contact:phone": "+7 903 5760011",
+        "contact:website": "http://www.paralet.ru",
+        "int_ref": "ZB3E",
+        "local_ref": "ZB3E",
+        "name": "Батюшково",
+        "ref": "ЗБ3Е"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2521888994,
+      "lat": 55.0983948,
+      "lon": 38.0003395,
+      "tags": {
+        "aeroway": "aerodrome",
+        "description": "ЗЦЙ6",
+        "local_ref": "ZCJ6",
+        "name": "Аэродром Прицеп",
+        "name:en": "Pricep",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2521890226,
+      "lat": 55.0663459,
+      "lon": 37.8834440,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:phone": "+7 916 0179199",
+        "description": "УУЦТ",
+        "icao": "UUCT",
+        "name": "Торбеево",
+        "name:en": "Torbeyevo",
+        "operator": "ООО «РеутТорг»",
+        "source": "http://maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2521921506,
+      "lat": 55.0736316,
+      "lon": 38.2638348,
+      "tags": {
+        "abandoned": "yes",
+        "aeroway": "aerodrome",
+        "int_ref": "ZB0E",
+        "name": "Аэродром Заячья Поляна",
+        "ref": "ЗБ0Е",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2521925145,
+      "lat": 55.0825986,
+      "lon": 38.6328210,
+      "tags": {
+        "aeroway": "aerodrome",
+        "description": "ЗБ13",
+        "disused": "yes",
+        "ele": "155",
+        "int_ref": "ZB13",
+        "name": "Аэродром Паново",
+        "source": "http://avialog.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3143490646,
+      "lat": 56.5385565,
+      "lon": 38.0768924,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:fax": "+7 495 6561591",
+        "contact:phone": "+74957881800",
+        "contact:website": "http://www.glider.ru/ru",
+        "description": "Учебно-тренировочная база для планеров линейки \"АС\"",
+        "designation": "ЗБ1Т",
+        "int_ref": "ZB1T",
+        "local_ref": "ZB1T",
+        "name": "Филисово",
+        "name:en": "Filisovo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3145179546,
+      "lat": 56.2767012,
+      "lon": 38.9247866,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:phone": "+7 903 7982113",
+        "int_ref": "XUMJ",
+        "local_ref": "XUMJ",
+        "name": "Слободка",
+        "name:en": "Slobodka",
+        "operator": "Авиа-парашютный центр \"Слободка\"",
+        "ref": "ЬУМЙ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3159324658,
+      "lat": 54.8759401,
+      "lon": 37.8467648,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "HA5S",
+        "name": "Турово",
+        "name:en": "Turovo",
+        "ref": "ХА5С"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4931189421,
+      "lat": 56.1342123,
+      "lon": 36.7119319,
+      "tags": {
+        "aerodrome:type": "gliding",
+        "aeroway": "aerodrome",
+        "ele": "198",
+        "local_ref": "ZF7Y",
+        "name": "Аэродром Щекино",
+        "name:en": "Airfield Shchekino",
+        "name:fr": "Aérodrome Chtchiokino",
+        "name:ru": "Аэродром Щекино",
+        "operator": "Private",
+        "phone": "+79854008400;+79037642822;+79852227233",
+        "source": "http://maps.aopa.ru/id/ZF7Y",
+        "website": "https://www.facebook.com/neboshchekino/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5110749048,
+      "lat": 55.4703743,
+      "lon": 36.1655549,
+      "tags": {
+        "aeroway": "aerodrome",
+        "icao": "UUWN",
+        "name": "Народное Небо",
+        "name:en": "Narodnoye Nevo",
+        "name:ru": "Народное Небо",
+        "source": "maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5124089937,
+      "lat": 56.3600563,
+      "lon": 36.8438575,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZCC1",
+        "name": "Напругово",
+        "name:en": "Naprugovo",
+        "name:ru": "Напругово",
+        "source": "https://maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5140081991,
+      "lat": 56.1015459,
+      "lon": 36.8005980,
+      "tags": {
+        "aeroway": "aerodrome",
+        "contact:email": "glider69@mail.ru",
+        "icao": "UUEH",
+        "icao:ru": "УУЕХ",
+        "local_ref": "ZF28",
+        "name": "Аэродром Шевлино",
+        "name:en": "Shevlino"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5140094944,
+      "lat": 56.4457698,
+      "lon": 37.8424662,
+      "tags": {
+        "aeroway": "aerodrome",
+        "local_ref": "ZF2V",
+        "name": "Старово",
+        "name:en": "Starovo",
+        "source": "maps.aopa.ru"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9100221192,
+      "lat": 56.0966244,
+      "lon": 36.5538967,
+      "tags": {
+        "aeroway": "aerodrome",
+        "closed": "probably",
+        "icao": "UUCN",
+        "name:en": "Nudol",
+        "note": "if disused (as seems quite possible) please do NOT remove, just update the \"closed\" tag."
+      }
+    }
+  ]
+}

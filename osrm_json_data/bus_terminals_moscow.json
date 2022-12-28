@@ -1,0 +1,132 @@
+{
+    "version": 0.6,
+    "generator": "Overpass API 0.7.59 e21c39fe",
+    "osm3s": {
+      "timestamp_osm_base": "2022-12-27T16:36:54Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+  
+  {
+    "type": "node",
+    "id": 430727006,
+    "lat": 55.8546209,
+    "lon": 37.4763061,
+    "tags": {
+      "alt_name": "Станция метро «Речной вокзал»",
+      "amenity": "bus_station",
+      "bus": "yes",
+      "description": "A 284, 559, 857",
+      "highway": "bus_stop",
+      "name": "Станция метро \"Речной вокзал\"",
+      "name:en": "\"Rechnoi Vokzal\" metro station",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 530611044,
+    "lat": 55.7068570,
+    "lon": 37.7656160,
+    "tags": {
+      "amenity": "bus_station",
+      "bus": "yes",
+      "name": "Автостанция \"Кузьминки\"",
+      "public_transport": "station"
+    }
+  },
+  {
+    "type": "node",
+    "id": 603093416,
+    "lat": 55.6151055,
+    "lon": 37.4901454,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Диспетчерская \"5-й микрорайон Тёплого Стана\"",
+      "note": "уточнить положение",
+      "public_transport": "platform"
+    }
+  },
+  {
+    "type": "node",
+    "id": 3837100630,
+    "lat": 55.6727612,
+    "lon": 37.8616629,
+    "tags": {
+      "amenity": "bus_station",
+      "building": "hangar",
+      "name": "Автостанция \"Котельники\""
+    }
+  },
+  {
+    "type": "node",
+    "id": 4360902889,
+    "lat": 55.5983901,
+    "lon": 37.5542772,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Новоясеневский автовокзал",
+      "phone": "+7 926 9173474",
+      "website": "https://busnovoyas.ru"
+    }
+  },
+  {
+    "type": "node",
+    "id": 4704448716,
+    "lat": 55.8515921,
+    "lon": 37.5601692,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Автостанция «Верхние Лихоборы»",
+      "opening_hours": "Mo-Su 10:00-22:00"
+    }
+  },
+  {
+    "type": "node",
+    "id": 5466089050,
+    "lat": 55.7882084,
+    "lon": 37.7464693,
+    "tags": {
+      "alt_name": "Автостанция \"Партизанская\"",
+      "amenity": "bus_station",
+      "description": "пригородные линии",
+      "name": "Автостанция \"Измайловская\""
+    }
+  },
+  {
+    "type": "node",
+    "id": 6165708991,
+    "lat": 55.8044239,
+    "lon": 37.7448134,
+    "tags": {
+      "amenity": "bus_station",
+      "level": "1",
+      "name": "Автостанция \"Черкизовская\""
+    }
+  },
+  {
+    "type": "node",
+    "id": 6476650201,
+    "lat": 55.7366719,
+    "lon": 37.5144259,
+    "tags": {
+      "amenity": "bus_station",
+      "building": "kiosk",
+      "name": "Диспетчерско-кассовый пункт «Парк Победы»",
+      "note": "Обслуживает только маршрут в Можайск"
+    }
+  },
+  {
+    "type": "node",
+    "id": 7986076165,
+    "lat": 55.8111095,
+    "lon": 37.8022874,
+    "tags": {
+      "amenity": "bus_station",
+      "name": "Автовокзал \"Центральный\""
+    }
+  }
+  
+    ]
+  }
+  

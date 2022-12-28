@@ -1,0 +1,526 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.59 e21c39fe",
+  "osm3s": {
+    "timestamp_osm_base": "2022-12-27T16:29:39Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 249719606,
+  "lat": 55.6893577,
+  "lon": 37.6757689,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "harbour": "yes",
+    "name": "Южный речной вокзал",
+    "name:da": "Sydlige flodterminal",
+    "name:en": "Southern River Station",
+    "tourism": "attraction",
+    "wikidata": "Q4534176",
+    "wikipedia": "ru:Южный речной вокзал"
+  }
+},
+{
+  "type": "node",
+  "id": 258837936,
+  "lat": 55.6365511,
+  "lon": 37.8845844,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 276981383,
+  "lat": 55.5586209,
+  "lon": 37.9170783,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "bicycle": "yes",
+    "cargo": "passengers",
+    "fee": "yes",
+    "name": "Андреевское"
+  }
+},
+{
+  "type": "node",
+  "id": 357504141,
+  "lat": 55.5581024,
+  "lon": 37.9316244,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "bicycle": "yes",
+    "cargo": "passengers",
+    "fee": "yes",
+    "name": "Тураево"
+  }
+},
+{
+  "type": "node",
+  "id": 387154056,
+  "lat": 55.5452129,
+  "lon": 38.1289511,
+  "tags": {
+    "amenity": "ferry_terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 427109584,
+  "lat": 55.5471506,
+  "lon": 38.1296974,
+  "tags": {
+    "amenity": "ferry_terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 444774804,
+  "lat": 55.6695869,
+  "lon": 37.6766506,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Коломенское"
+  }
+},
+{
+  "type": "node",
+  "id": 635970191,
+  "lat": 55.8490196,
+  "lon": 37.4589947,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "check_date": "2022-08-19",
+    "leisure": "marina",
+    "name": "Захарково",
+    "name:en": "Zakharkovo",
+    "name:ru": "Захарково",
+    "operator": "Гормост",
+    "payment:mastercard": "yes",
+    "payment:mir": "yes",
+    "payment:troika": "yes",
+    "payment:visa": "yes",
+    "power_supply": "no",
+    "sanitary_dump_station": "no",
+    "seamark:harbour:category": "marina",
+    "seamark:type": "harbour",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1074932001,
+  "lat": 55.9841200,
+  "lon": 37.6498307,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Бухта Радости"
+  }
+},
+{
+  "type": "node",
+  "id": 1195847984,
+  "lat": 55.6411015,
+  "lon": 37.7542192,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "name": "Братеево"
+  }
+},
+{
+  "type": "node",
+  "id": 1219620861,
+  "lat": 55.6418311,
+  "lon": 37.7504074,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Марьино (метро)"
+  }
+},
+{
+  "type": "node",
+  "id": 1219621277,
+  "lat": 55.6417571,
+  "lon": 37.7251331,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Марьино"
+  }
+},
+{
+  "type": "node",
+  "id": 1281308550,
+  "lat": 55.6174024,
+  "lon": 37.8420130,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "name": "Дзержинский"
+  }
+},
+{
+  "type": "node",
+  "id": 1350444894,
+  "lat": 55.8476648,
+  "lon": 37.4684818,
+  "tags": {
+    "access": "permissive",
+    "amenity": "ferry_terminal",
+    "mooring": "yes",
+    "name": "Причал №11",
+    "name:en": "Berth №11"
+  }
+},
+{
+  "type": "node",
+  "id": 1350444905,
+  "lat": 55.8485735,
+  "lon": 37.4679025,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №8",
+    "name:en": "Berth №8"
+  }
+},
+{
+  "type": "node",
+  "id": 1416361990,
+  "lat": 55.8489206,
+  "lon": 37.4676906,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №7",
+    "name:en": "Berth №7"
+  }
+},
+{
+  "type": "node",
+  "id": 1416361991,
+  "lat": 56.0857649,
+  "lon": 37.6689707,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Хвойный Бор",
+    "operator": "Столичная Судоходная компания"
+  }
+},
+{
+  "type": "node",
+  "id": 1416361997,
+  "lat": 55.8505490,
+  "lon": 37.4665238,
+  "tags": {
+    "amenity": "ferry_terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 1748519962,
+  "lat": 55.9660479,
+  "lon": 37.5170302,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Хлебниково",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 1856049504,
+  "lat": 55.8206034,
+  "lon": 37.3826168,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Крокус Сити",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 1905972714,
+  "lat": 55.5435782,
+  "lon": 37.9803428,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Лодочная переправа"
+  }
+},
+{
+  "type": "node",
+  "id": 1905973716,
+  "lat": 55.5427081,
+  "lon": 37.9789451,
+  "tags": {
+    "amenity": "ferry_terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 2984164087,
+  "lat": 55.6355361,
+  "lon": 37.8843640,
+  "tags": {
+    "amenity": "ferry_terminal"
+  }
+},
+{
+  "type": "node",
+  "id": 3604728689,
+  "lat": 55.7308786,
+  "lon": 37.5976563,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Причал Флотилии \"Рэдисон Ройал\"",
+    "public_transport": "station",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771974,
+  "lat": 55.8482766,
+  "lon": 37.4680977,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "check_date": "2022-08-19",
+    "ferry": "yes",
+    "mooring": "yes",
+    "name": "Причал №9",
+    "name:en": "Berth №9",
+    "name:ru": "Причал №9",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771975,
+  "lat": 55.8480073,
+  "lon": 37.4682726,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №10",
+    "name:en": "Berth №10"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771976,
+  "lat": 55.8472251,
+  "lon": 37.4687460,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №12",
+    "name:en": "Berth №12"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771977,
+  "lat": 55.8452969,
+  "lon": 37.4699678,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №15",
+    "name:en": "Berth №15"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771978,
+  "lat": 55.8460513,
+  "lon": 37.4694943,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №14",
+    "name:en": "Berth №14"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771979,
+  "lat": 55.8464880,
+  "lon": 37.4692221,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №13",
+    "name:en": "Berth №13"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771980,
+  "lat": 55.8443030,
+  "lon": 37.4709508,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №17",
+    "name:en": "Berth №17"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771981,
+  "lat": 55.8541225,
+  "lon": 37.4642935,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №1",
+    "name:en": "Berth №1"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771982,
+  "lat": 55.8533058,
+  "lon": 37.4647777,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №2",
+    "name:en": "Berth №2"
+  }
+},
+{
+  "type": "node",
+  "id": 3637771983,
+  "lat": 55.8447352,
+  "lon": 37.4703285,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "passengers",
+    "mooring": "yes",
+    "name": "Причал №16",
+    "name:en": "Berth №16"
+  }
+},
+{
+  "type": "node",
+  "id": 4408536261,
+  "lat": 55.9954937,
+  "lon": 37.5887536,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Новосельцево",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5629359274,
+  "lat": 55.8865708,
+  "lon": 37.4588414,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Химки",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5867534154,
+  "lat": 55.9652992,
+  "lon": 37.5207885,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Новые Водники",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 6052328010,
+  "lat": 55.7486253,
+  "lon": 37.4353642,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "bench": "no",
+    "ferry": "yes",
+    "lit": "yes",
+    "name": "Крылатское",
+    "public_transport": "platform",
+    "shelter": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6052331254,
+  "lat": 55.7494401,
+  "lon": 37.4756497,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "bench": "yes",
+    "ferry": "yes",
+    "lit": "yes",
+    "name": "Парк Фили",
+    "public_transport": "platform"
+  }
+},
+{
+  "type": "node",
+  "id": 6233278765,
+  "lat": 55.8412775,
+  "lon": 37.4676114,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "cargo": "vehicle",
+    "name": "Причал ТМЗ"
+  }
+},
+{
+  "type": "node",
+  "id": 9556714470,
+  "lat": 55.7116132,
+  "lon": 37.5723082,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Причал \"Андреевский\"",
+    "public_transport": "station",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9631376187,
+  "lat": 55.7542811,
+  "lon": 37.5637928,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "operator": "Гормост"
+  }
+}
+
+  ]
+}
