@@ -16,6 +16,6 @@ export function pointsDistanceMeters({ p1_lon, p1_lat, p2_lon, p2_lat }: TTwoPoi
 }
 
 export function fact(x: number): number {
-  if ( x === 0 ) return 1
+  if ( x < 1) return 1
   return x * fact(x - 1)
 }

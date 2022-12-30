@@ -1,9 +1,22 @@
-import { TElementWithLonLat, TFileData, TNodeType, TOsrmResponse, TTwoPoints, } from './types'
+import {
+  TElementWithLonLat,
+  TFileData,
+  TNodeType,
+  TOsrmResponse,
+  TTwoPoints,
+} from './types'
 import fs from 'fs'
 import axios from 'axios'
-import { fact, pointsDistanceMeters, } from './utils'
+import {
+  fact,
+  pointsDistanceMeters,
+} from './utils'
 import { createClient } from 'redis'
-import { isArray, meanBy, } from 'lodash'
+import {
+  isArray,
+  meanBy,
+  sumBy,
+} from 'lodash'
 
 const redisClient = createClient()
 
@@ -34,27 +47,27 @@ class CityData {
     const fileText   = fs.readFileSync(fileName, { encoding: 'utf-8' }).toString()
     const fileObject = JSON.parse(fileText) as TFileData
 
-    const elements = fileObject.elements.filter(
-      element => 'lon' in element && 'lat' in element,
-    ) as TElementWithLonLat[]
-
-    return elements.reduce<TElementWithLonLat[]>((rez, el1) => {
-      if ( rez.every(el2 => {
-        const twoPoints = {
-          p1_lat: el1.lat,
-          p1_lon: el1.lon,
-          p2_lat: el2.lat,
-          p2_lon: el2.lon,
-        }
-        return pointsDistanceMeters(twoPoints) >= 500
-      }) || rez.length === 0 )
-        return [ ...rez, el1 ]
-      return rez
-    }, [])
+    return (fileObject.elements
+      .filter(element => 'lon' in element && 'lat' in element) as TElementWithLonLat[])
+      .reduce<TElementWithLonLat[]>((rez, el1) => {
+        if ( rez.every(el2 => {
+          const twoPoints = {
+            p1_lat: el1.lat,
+            p1_lon: el1.lon,
+            p2_lat: el2.lat,
+            p2_lon: el2.lon,
+          }
+          return pointsDistanceMeters(twoPoints) >= 500
+        }) || rez.length === 0 )
+          return [ ...rez, el1 ]
+        return rez
+      }, [])
   }
 
-  public async calcCoefficient(...types: (TNodeType | 'all')[]) {
+  public async calc(...types: (TNodeType | 'all')[]) {
     const nodes: TElementWithLonLat[] = []
+
+    types.sort()
 
     if ( types.includes('all') || types.includes('piers') )
       nodes.push(...this.piers)
@@ -82,9 +95,7 @@ class CityData {
             p2_lat: nodes[j].lat,
           }
 
-          const info = await CityData.getDrivingDistanceAndTime(twoPoints)
-
-          rezArray.push(info)
+          rezArray.push(await CityData.getDrivingDistanceAndTime(twoPoints))
 
           ++processed
           if ( processed % 500 === 0 )
@@ -92,16 +103,35 @@ class CityData {
         }
     if ( !mem ) await redisClient.set([ this.cityName, ...types ].join(';'), JSON.stringify(rezArray))
     console.log(`FINISHED ${ isArray(types) ? types.join(' ') : types } nodes of ${ this.cityName }`)
-    fs.mkdirSync('result', { recursive: true })
-    fs.writeFileSync(`result/data_${ this.cityName }.json`, JSON.stringify(rezArray, null, 4))
 
-    const avgDistance = meanBy(rezArray, el => el.routes.at(0)!.distance)
-    const avgDuration = meanBy(rezArray, el => el.routes.at(0)!.duration)
+
+    fs.mkdirSync('result', { recursive: true })
+    fs.writeFileSync(
+      `result/data_${ [ this.cityName, ...types ].join('-') }.json`,
+      JSON.stringify(
+        rezArray.map(el => ({
+          distance: el.routes[0].distance,
+          duration: el.routes[0].duration,
+        }))
+        , null, 2),
+    )
+
+
+    const sumDistance = sumBy(rezArray, el => el.routes[0].distance)
+    const sumDuration = sumBy(rezArray, el => el.routes[0].duration)
+    const avgDistance = sumDistance / rezArray.length
+    // const avgDuration = meanBy(rezArray, el => el.routes.at(0)!.duration)
+    const avgDuration = sumDuration / rezArray.length
 
     return {
+      // in meters
+      sumDistance,
       avgDistance,
+      // in seconds
+      sumDuration,
       avgDuration,
-      coefficient: avgDuration / avgDistance,
+      // kilometers per hour
+      avgSpeed: (avgDistance / avgDuration) * 3.6,
     }
   }
 
@@ -112,7 +142,7 @@ class CityData {
     const mem: string | null  = await redisClient.get(url)
     const data: TOsrmResponse = mem ? JSON.parse(mem) : await (async () => {
       let { data } = (await axios.get(url))
-      void redisClient.set(url, JSON.stringify(data))
+      void await redisClient.set(url, JSON.stringify(data))
       return data
     })()
 
@@ -135,12 +165,37 @@ const main = async () => {
 
   fs.mkdirSync('result', { recursive: true })
   fs.writeFileSync('result/data.json', JSON.stringify({
-    kazanRez: await kazanData.calcCoefficient('all'),
-    moscowRez: await moscowData.calcCoefficient('all'),
-    petersburgRez: await petersburgData.calcCoefficient('all'),
-    volgogradRez: await volgogradData.calcCoefficient('all'),
-    moscowAirports: await moscowData.calcCoefficient('airports'),
-    kazanRailways: await kazanData.calcCoefficient('railwayStations'),
+    // kazanAll: await kazanData.calc('all'),
+    // petersburgAll: await petersburgData.calc('all'),
+    // volgogradAll: await volgogradData.calc('all'),
+    // kazanRailwaysAndBus: await kazanData.calc('railwayStations', 'busTerminals'),
+
+    kazanAirports: await kazanData.calc('airports'),
+    kazanBuses: await kazanData.calc('busTerminals'),
+    kazanPiers: await kazanData.calc('piers'),
+    kazanRailways: await kazanData.calc('railwayStations'),
+
+    moscowAirports: await moscowData.calc('airports'),
+    moscowBuses: await moscowData.calc('busTerminals'),
+    moscowPiers: await moscowData.calc('piers'),
+    moscowRailways: await moscowData.calc('railwayStations'),
+
+    petersburgAirports: await petersburgData.calc('airports'),
+    petersburgBuses: await petersburgData.calc('busTerminals'),
+    petersburgPiers: await petersburgData.calc('piers'),
+    petersburgRailways: await petersburgData.calc('railwayStations'),
+
+    volgogradAirports: await volgogradData.calc('airports'),
+    volgogradBuses: await volgogradData.calc('busTerminals'),
+    volgogradPiers: await volgogradData.calc('piers'),
+    volgogradRailways: await volgogradData.calc('railwayStations'),
+
+    // moscowAirportsAndBuses: await moscowData.calc('airports', 'busTerminals'),
+    // moscowAirportsAndPiers: await moscowData.calc('airports', 'piers'),
+    // moscowAirportsAndRailways: await moscowData.calc('airports', 'railwayStations'),
+    // moscowBusesAndPiers: await moscowData.calc('busTerminals', 'piers'),
+    // moscowBusesAndRailways: await moscowData.calc('busTerminals', 'railwayStations'),
+    // moscowPiersAndRailways: await moscowData.calc('piers', 'railwayStations'),
   }, null, 4))
 
   await redisClient.disconnect()
